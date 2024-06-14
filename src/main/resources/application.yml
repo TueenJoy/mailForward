@@ -1,0 +1,12 @@
+server:
+  port: 8090 # web服务端口号
+
+
+# spring配置
+spring:
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: 发件邮箱
+    password: 请在这填发件邮箱的临时令牌（可用于登录邮箱的，且不可泄露）
+    default-encoding: utf-8
